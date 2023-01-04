@@ -1,0 +1,40 @@
+body{
+    background: #FEFBE7;
+}
+.header, .text, .image, .buttons{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    color: #A0BCC2;
+}
+h2{
+    font-family: 'Concert One', cursive;
+    color: #A0BCC2;
+}
+button{
+    font-family: 'Concert One', cursive;
+    color: #F9EBC8;  
+    background-color: #A0BCC2;
+    font-size: large;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media all and (max-width:800px){
+    .myImage{
+        width: 500px;
+    }
+}
+@media all and (max-width:500px){
+    .myImage{
+        width: 300px;
+    }
+}
+@media all and (max-width:350px){
+    .myImage{
+        width: 250px;
+    }
+}
